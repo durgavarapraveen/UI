@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@500&family=IBM+Plex+Sans:wght@300;400&family=Jockey+One&family=Lato&family=Martian+Mono:wght@300&family=Roboto+Slab:wght@200;300&family=Roboto:ital,wght@0,300;1,300&display=swap');
+* {
+    box-sizing: content-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'IBM Plex Sans';
+}
+.login-container {
+    width: 763px;
+    height: 513px;
+    background: #FFFFFF;
+    border: 1px solid #D9D9DB;
+    border-radius: 2px 2px 0px 0px
+}
+.login-head {
+    width: 763px;
+    height: 50px;
+    background: #EFFFF4;
+    border-radius: 8px 8px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-head p {
+    width: 619px;
+    height: 16px;
+    color:  #008A45;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.login-box1 {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin: 15px auto;
+}
+.login-account {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    position: relative;
+}
+.login-account p {
+    color: #000;
+    font-size: 24px;
+    line-height: 31px;
+    font-weight: 700;
+    margin: 20px 0;
+}
+form {
+    width: 100%;
+}
+.login-name {
+    display: flex;
+    flex-direction: row;
+}
+
+form {
+    width: 100%;
+    height: 46px;
+    background-color: #F7F8FA;
+    border: 1px solid #D9D9DB;
+    border-radius: 2px 2px 0px 0px;
+}
+.float-label {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+    width: 50%;
+}
+.float-label input {
+    width: 100%;
+    height: 46px;
+    background-color: #F7F8FA;
+    border: 1px solid #D9D9DB;
+    border-radius: 2px 2px 0px 0px;
+    outline: 0;
+    text-indent: 5px;
+    color: #000;
+    font-weight: 600;
+}
+.float-label label {
+    font-size: 15px;
+    font-weight: 500;
+    color: #8A8A8A;
+    position: absolute;
+    pointer-events: none;
+    transform: translate(10px, 13px) scale(1);
+    transform-origin: top left;
+    transition: all 0.2s ease-out;
+}
+.float-label:focus-within label {
+    transform: translate(5px, 6px) scale(0.75);
+}
+.float-label .Active {
+    transform: translate(0, 8px) scale(0.75);
+}
+.float-label-1 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+    width: 100%;
+}
+.float-label-1 input {
+    width: 100%;
+    height: 46px;
+    background-color: #F7F8FA;
+    border: 1px solid #D9D9DB;
+    border-radius: 2px 2px 0px 0px;
+    outline: 0;
+    text-indent: 5px;
+    color: #000;
+    font-weight: 600;
+}
+.float-label-1 label {
+    font-size: 15px;
+    font-weight: 500;
+    color: #8A8A8A;
+    position: absolute;
+    pointer-events: none;
+    transform: translate(10px, 13px) scale(1);
+    transform-origin: top left;
+    transition: all 0.2s ease-out;
+}
+.float-label-1:focus-within label {
+    transform: translate(5px, 6px) scale(0.75);
+}
+.float-label-1 .Active {
+    transform: translate(0, 8px) scale(0.75);
+}
+
+.float-label-1 button {
+    background-color: #F7F8FA;
+    position: absolute;
+    float: right;
+    right: 20px;
+    top: 10px;
+    border: none;
+}
+
+form .btn {
+    width: 100%;
+    background-color: #2F6CE5;
+    height: 40px;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-size: 14px;
+    border: none;
+    font-weight: 600;
+    margin: 20px 0;
+}
+.btn1 {
+    width: 100%;
+    height: 38px;
+    border: 0.6px solid #D9D9DB;
+    border-radius: 2px;
+    margin: 10px 0;
+    position: absolute;
+    top: 330px;
+    color: black;
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.btn1 img {
+    width: 20px;
+    height: 20px;
+    margin: 3px 10px;
+}
+.btn2 {
+    width: 100%;
+    height: 38px;
+    border: 0.6px solid #D9D9DB;
+    border-radius: 2px;
+    margin: 10px 0;
+    position: absolute;
+    top: 374px;
+    color: black;
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.btn2 img {
+    width: 20px;
+    height: 20px;
+    margin: 3px 10px;
+}
+.login-logo {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    position: relative;
+}
+.already-account {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    float: right;
+    right: 0;
+    top: 20px;
+    bottom: 20px;
+    font-family: IBM Plex Sans;
+    padding: 5px;
+    height: 17px;
+}
+.already-account p {
+    font-size: 13px;
+    font-weight: 400;
+    color: #3D3D3D;
+}
+.already-account a {
+    text-decoration: none;
+    color: #2F6CE5;
+    font-size: 14px;
+    font-weight: 400;
+}
+.login-logo img{
+    margin-top: 80px;
+    margin:  80px auto 0 auto;
+}
+.login-logo p {
+    font-size: 11px;
+    color: #000000;
+    line-height: 16px;
+    padding: 0px 5px;
+    margin: auto;
+}
