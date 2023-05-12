@@ -15,19 +15,19 @@ function myfun() {
     }
 }
 
-const input = document.getElementById('email');
-const label = document.querySelector('label[for="email"]');
+// const input = document.getElementById('email');
+// const label = document.querySelector('label[for="email"]');
 
-const input1 = document.getElementById('password');
-const label1 = document.querySelector('label[for="password"]');
+// const input1 = document.getElementById('password');
+// const label1 = document.querySelector('label[for="password"]');
 
-input.addEventListener('input', () => {
-  if (input.value) {
-    label.classList.add('active');
-  } else {
-    label.classList.remove('active');
-  }
-});
+// input.addEventListener('input', () => {
+//   if (input.value) {
+//     label.classList.add('active');
+//   } else {
+//     label.classList.remove('active');
+//   }
+// });
 
 
 // input.addEventListener('focus', () => {
@@ -38,13 +38,13 @@ input.addEventListener('input', () => {
 //     label.classList.remove('active');
 // });
 
-input1.addEventListener('input', () => {
-    if (input.value) {
-      label1.classList.add('active');
-    } else {
-      label1.classList.remove('active');
-    }
-});
+// input1.addEventListener('input', () => {
+//     if (input.value) {
+//       label1.classList.add('active');
+//     } else {
+//       label1.classList.remove('active');
+//     }
+// });
   
   
 // input1.addEventListener('focus', () => {
